@@ -1,0 +1,111 @@
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+
+
+}
+#caracteristicas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/your.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+@media (min-width: 850px){
+    #caracteristicas .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+#caracteristicas .img-container{
+    background-image: url("imagenes/yonas.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px; 
+    }
+    
+    #caracteristicas .cartapas{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/*#caracteristicas{
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+#caracteristicas .cartapas{
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.cartapas:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagenes/snk.jpg");
+
+}
+
+@media (min-width: 850px){
+    .cartapas:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imagenes/snk.jpg");
+
+    }
+    #caracteristicas .cartapas{
+        padding: 50px;
+        background-size: 100% 260px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #caracteristicas{
+        background-image: url("media/background-2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #caracteristicas .container{
+        text-align: center;
+    }
+
+    
+}
